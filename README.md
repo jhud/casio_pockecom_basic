@@ -18,7 +18,7 @@ The BASIC file must begin with a filename (upper and lower case allowed). This i
 
 Run main interpreter with a BASIC file:
 ```
-python3 casio_basic <filename.bas>
+python3 casio_basic.py <filename.bas>
 ```
 
 There is also a conversion utility which lets you use labels instead of line numbers. 
@@ -26,8 +26,12 @@ I find it much easier to code in that than the original CASIO basic. This script
 You can add the converter as a preprocessing step before the interpreter in your workflow.
 
 ```
-./convert.py [-v|--verbose] [-c|--comments] filename_input.bas filename_output.bas
+python3 convert.py [-v|--verbose] [-c|--comments] filename_input.bas filename_output.bas
 ```
+
+`-c` will preserve the comments instead of stripping them.
+`-v` will list all the labels and their substitutions.
+
 
 Example input:
 ```
