@@ -1,0 +1,9 @@
+Test simple
+10 INPUT "N=",N
+20 S=0
+30 FOR I=1 TO N
+40 S=S+I
+45 PRINT S
+50 NEXT I
+60 PRINT "SUM=";S
+70 END
