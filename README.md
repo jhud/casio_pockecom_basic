@@ -1,5 +1,7 @@
 # Casio Pocket Computer Python BASIC Interpreter
 
+![Picture of an old retro calculator](docs/calc_pic.jpg)
+
 Python BASIC interpreter that is compatible with the retro 80s Casio FX-730P pocket computer (and probably others - not tested yet).
 
 You can use this to develop CASIO BASIC programs locally, before running them on an actual device.
